@@ -8,8 +8,8 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = ["Backend Developer", "Fullstack Developer"];
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const [delta, setDelta] = useState(300 - Math.random() * 150);
+  const period = 500;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -46,7 +46,7 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagLine">Welcome to my Portfolio</span>
-            <h1>{`Hi I'm Pedro `}<span className="wrap">{text}</span></h1>
+            <h1>{`Hi I'm Pedro, I'm a `}<span className="wrap">{text}</span></h1>
             <p>I'm a Le Wagon Web Developer Bootcamp graduate. I have a Master's in Mining Engineering, but I feel more joy in programming</p>
             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
           </Col>
