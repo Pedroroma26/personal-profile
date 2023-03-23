@@ -22,7 +22,7 @@ export const Banner = () => {
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
-    let updateText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
     setText(updatedText);
 
@@ -30,10 +30,10 @@ export const Banner = () => {
       setDelta(prevDelta => prevDelta / 2)
     }
 
-    if (!isDeleting && updateText === fullText) {
+    if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
       setDelta(period);
-    } else if(isDeleting && updateText === '') {
+    } else if(isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum +1);
       setDelta(500);
