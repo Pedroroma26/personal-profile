@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <a href="https://www.flaticon.com/free-icons/celestial-body" title="celestial body icons">Celestial body icons created by manshagraphics - Flaticon</a>
     </div>
   );
 }
