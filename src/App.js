@@ -3,6 +3,7 @@ import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
+import { Projects } from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      <Projects />
       <a href="https://www.flaticon.com/free-icons/celestial-body" title="celestial body icons">Celestial body icons created by manshagraphics - Flaticon</a>
     </div>
   );
