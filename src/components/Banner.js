@@ -47,7 +47,8 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagLine">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Pedro, I'm a `}<span className="wrap">{text}</span></h1>
-            <p>I'm a Le Wagon Web Developer Bootcamp graduate. I have a Master's in Mining Engineering, but I feel more joy in programming</p>
+            <p>I'm from the beautiful city of Porto, Portugal. Recently I completed Le Wagon Web Development Bootcamp.</p>
+            <p> Although I have a Master's Degree in Mine Engineering, I have found more joy in programming and bringing ideas to life.</p>
             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
