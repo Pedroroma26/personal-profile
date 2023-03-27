@@ -12,7 +12,7 @@ import proj2Img3 from "../assets/img/proj2img3.png";
 import proj2Img4 from "../assets/img/proj2img4.png";
 import proj2Img5 from "../assets/img/proj2img5.png";
 import proj3Img1 from "../assets/img/proj3img1.png";
-
+import proj3Img2 from "../assets/img/proj3img2.png";
 
 
 
@@ -74,6 +74,11 @@ export const Projects = () => {
       description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
       imgUrl: proj3Img1,
     },
+    {
+      title: "Personal Profile",
+      description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
+      imgUrl: proj3Img2,
+    },
   ];
 
   return (
@@ -129,7 +134,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '25px solid black', display: 'block', margin: '0 auto' }} />
+                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '25px solid black' }} />
                             </Col>
                           );
                         })}
