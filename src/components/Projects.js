@@ -4,16 +4,12 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import proj1Img1 from "../assets/img/proj1img1.png";
 import proj1Img2 from "../assets/img/proj1img2.png";
 import proj1Img3 from "../assets/img/proj1img3.png";
-import proj1Img4 from "../assets/img/proj1img4.png";
-import proj1Img5 from "../assets/img/proj1img5.png";
 import proj2Img1 from "../assets/img/proj2img1.png";
 import proj2Img2 from "../assets/img/proj2img2.png";
 import proj2Img3 from "../assets/img/proj2img3.png";
-import proj2Img4 from "../assets/img/proj2img4.png";
-import proj2Img5 from "../assets/img/proj2img5.png";
 import proj3Img1 from "../assets/img/proj3img1.png";
 import proj3Img2 from "../assets/img/proj3img2.png";
-
+import proj3Img3 from "../assets/img/proj3img3.png";
 
 
 export const Projects = () => {
@@ -35,16 +31,6 @@ export const Projects = () => {
       imgUrl: proj1Img3,
     },
     {
-      title: "Pitches for Fun",
-      description: "A web application that allows users to post pitches to be rented, they also can resnt others useres pitches.",
-      imgUrl: proj1Img4,
-    },
-    {
-      title: "Pitches for Fun",
-      description: "A web application that allows users to post pitches to be rented, they also can resnt others useres pitches.",
-      imgUrl: proj1Img5,
-    },
-    {
       title: "SportsAdmin",
       description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
       imgUrl: proj2Img1,
@@ -60,24 +46,19 @@ export const Projects = () => {
       imgUrl: proj2Img3,
     },
     {
-      title: "SportsAdmin",
-      description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
-      imgUrl: proj2Img4,
-    },
-    {
-      title: "SportsAdmin",
-      description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
-      imgUrl: proj2Img5,
-    },
-    {
       title: "Personal Profile",
-      description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
+      description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img1,
     },
     {
       title: "Personal Profile",
-      description: "A web application that allows competition organizers to manage compatitions, sign-up teams, and allows the referres to do a game report more efficiently",
+      description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img2,
+    },
+    {
+      title: "Personal Profile",
+      description: "This project is to show my personal porfolio of developed apps.",
+      imgUrl: proj3Img3,
     },
   ];
 
@@ -87,7 +68,7 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>These are the projects that I have made.</p>
+            <p>These are the projects that I developed.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
@@ -113,6 +94,10 @@ export const Projects = () => {
                         );
                       })}
                     </Row>
+                    <div class="description">
+                      <p>Pitches for Fun is a web application that allows users to post the pitches that they own to be rent. They also can rent others users pitches and rate them.
+                         You can visit this project <a href="https://pitches-for-fun-pedroroma26.herokuapp.com/" target="_blank" class="project_link">here</a>.</p>
+                    </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <Row>
@@ -126,6 +111,10 @@ export const Projects = () => {
                           );
                         })}
                     </Row>
+                    <div class="description">
+                      <p>SportsAdmin is a web application that allows competition organizers to manage their competitions. It enables organizers to sign up teams and their squads, schedule games between different teams, and perform match reports with the details of the game. After the game ends, an email is sent to both teams for validation.
+                         You can visit this project <a href="https://sports-reports.herokuapp.com/" target="_blank" class="project_link">here</a>.</p>
+                    </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <Row>
@@ -139,6 +128,10 @@ export const Projects = () => {
                           );
                         })}
                     </Row>
+                    <div class="description">
+                      <p>This project is to show my personal porfolio of developed apps.
+                         You can visit this project <a href="https://pedroroma26.github.io/personal-profile/" target="_blank" class="project_link">here</a>.</p>
+                    </div>
                   </Tab.Pane>
                 </Tab.Content>
             </Tab.Container>

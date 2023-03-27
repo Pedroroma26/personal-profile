@@ -404,6 +404,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 
+.description p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 18px auto 30px auto;
+  text-align: center;
+  width: 81%;
+}
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -525,6 +535,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.project_link {
+  text-decoration: none;
+  color: #5630B5;
 }
 
 /************ Projects Css ************/
