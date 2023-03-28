@@ -1,4 +1,3 @@
-import { Container, Col, Row } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ruby_logo from '../assets/img/ruby_logo.png';
@@ -8,9 +7,7 @@ import sql_logo from '../assets/img/sql_logo.png';
 import html_logo from '../assets/img/html_logo.png';
 import css_logo from '../assets/img/css_logo.png';
 import javascript_logo from '../assets/img/javascript_logo.png';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
