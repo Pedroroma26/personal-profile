@@ -43,7 +43,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <TrackVisibility>
               {({ isVisible}) =>
-                <div className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>
+                <div key={isVisible} className={isVisible ? "animate__animated animate__lightSpeedInLeft animate__repeat-1 animate__slow" : ""}>
                   <h2>Skills</h2>
                   <p>As a recent graduate of Le Wagon's Web Development Coding Bootcamp, I have gained comprehensive knowledge and hands-on experience in various programming languages and web development tools.
                     In order to continue learning other skills, I created this portfolio page in React.</p>
@@ -85,6 +85,5 @@ export const Skills = () => {
       </div>
       <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
-
   )
 }

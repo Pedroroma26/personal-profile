@@ -70,7 +70,7 @@ export const Projects = () => {
           <Col size={12}>
           <TrackVisibility>
             {({ isVisible}) =>
-            <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+            <div className={isVisible ? "animate__animated animate__slideInUp animate__repeat-1 animate__faster" : ""}>
             <h2>Projects</h2>
             <p>These are the projects that I developed.</p>
             </div>}

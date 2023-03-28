@@ -51,14 +51,14 @@ export const Contact = () => {
           <Col xs={12} md={6}>
             <TrackVisibility>
             {({ isVisible }) =>
-              <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+              <img className={isVisible ? "animate__animated animate__zoomIn animate__repeat-1 animate__slow" : ""} src={contactImg} alt="Contact Us"/>
             }
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6}>
             <TrackVisibility>
             {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className={isVisible ? "animate__animated animate__fadeIn animate__repeat-1 animate__slow" : ""}>
               <h2>Get in touch</h2>
               <form onSubmit={handleSubmit}>
                 <Row>
