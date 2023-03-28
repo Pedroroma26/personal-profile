@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-profile/static/css/main.e9fcdb5e.css",
-    "main.js": "/personal-profile/static/js/main.c9fb234d.js",
+    "main.css": "/personal-profile/static/css/main.025c983f.css",
+    "main.js": "/personal-profile/static/js/main.d7b6a7a1.js",
     "static/js/787.f586a476.chunk.js": "/personal-profile/static/js/787.f586a476.chunk.js",
     "static/media/proj1img1.png": "/personal-profile/static/media/proj1img1.33183a4aac02bcc458c4.png",
     "static/media/proj1img2.png": "/personal-profile/static/media/proj1img2.948640b2567a6c353ecc.png",
@@ -21,6 +21,7 @@
     "static/media/css_logo.png": "/personal-profile/static/media/css_logo.9f33c557b92e4e2e1cc8.png",
     "static/media/javascript_logo.png": "/personal-profile/static/media/javascript_logo.944505d4241b3ee681fc.png",
     "static/media/ruby_logo.png": "/personal-profile/static/media/ruby_logo.c7bc8aaa300e723f7ef8.png",
+    "static/media/contact-img.svg": "/personal-profile/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/proj3img2.png": "/personal-profile/static/media/proj3img2.9ec7edfb8ba9b602ce18.png",
     "static/media/rails_logo.png": "/personal-profile/static/media/rails_logo.c87f032e560c7a8da82c.png",
     "static/media/pedro-romariz-logo.png": "/personal-profile/static/media/pedro-romariz-logo.5b8aa3d968137be53a8b.png",
@@ -28,7 +29,6 @@
     "static/media/revicons.eot": "/personal-profile/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/personal-profile/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/personal-profile/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/personal-profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/nav-icon3.svg": "/personal-profile/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/personal-profile/index.html",
     "static/media/nav-icon1.svg": "/personal-profile/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
@@ -38,12 +38,12 @@
     "static/media/CentraNo2-Bold.ttf": "/personal-profile/static/media/CentraNo2-Bold.31d6cfe0d16ae931b73c.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-profile/static/media/CentraNo2-Book.31d6cfe0d16ae931b73c.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-profile/static/media/CentraNo2-Medium.31d6cfe0d16ae931b73c.ttf",
-    "main.e9fcdb5e.css.map": "/personal-profile/static/css/main.e9fcdb5e.css.map",
-    "main.c9fb234d.js.map": "/personal-profile/static/js/main.c9fb234d.js.map",
+    "main.025c983f.css.map": "/personal-profile/static/css/main.025c983f.css.map",
+    "main.d7b6a7a1.js.map": "/personal-profile/static/js/main.d7b6a7a1.js.map",
     "787.f586a476.chunk.js.map": "/personal-profile/static/js/787.f586a476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9fcdb5e.css",
-    "static/js/main.c9fb234d.js"
+    "static/css/main.025c983f.css",
+    "static/js/main.d7b6a7a1.js"
   ]
 }
