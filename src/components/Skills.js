@@ -11,6 +11,8 @@ import javascript_logo from '../assets/img/javascript_logo.png';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 export const Skills = () => {
   const responsive = {
@@ -39,9 +41,14 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>As a recent graduate of Le Wagon's Web Development Coding Bootcamp, I have gained comprehensive knowledge and hands-on experience in various programming languages and web development tools.
-                 In order to continue learning other skills, I created this portfolio page in React.</p>
+              <TrackVisibility>
+              {({ isVisible}) =>
+                <div className={isVisible ? "animate__animated animate__lightSpeedInLeft" : ""}>
+                  <h2>Skills</h2>
+                  <p>As a recent graduate of Le Wagon's Web Development Coding Bootcamp, I have gained comprehensive knowledge and hands-on experience in various programming languages and web development tools.
+                    In order to continue learning other skills, I created this portfolio page in React.</p>
+                </div>}
+              </TrackVisibility>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
                   <img src={ruby_logo} alt="Image" />
