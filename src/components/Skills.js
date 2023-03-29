@@ -48,31 +48,31 @@ export const Skills = () => {
               </TrackVisibility>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <img src={ruby_logo} alt="Image" />
+                  <img src={ruby_logo} alt="Ruby_Image" />
                   <h5>Ruby</h5>
                 </div>
                 <div className="item">
-                  <img src={rails_logo} alt="Image" />
+                  <img src={rails_logo} alt="Rails_Image" />
                   <h5>Rails</h5>
                 </div>
                 <div className="item">
-                  <img src={html_logo} alt="Image" />
+                  <img src={html_logo} alt="HTML_Image" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={css_logo} alt="Image" />
+                  <img src={css_logo} alt="CSS_Image" />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={javascript_logo} alt="Image" />
+                  <img src={javascript_logo} alt="JS_Image" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={sql_logo} alt="Image" />
+                  <img src={sql_logo} alt="SQL_Image" />
                   <h5>SQL</h5>
                 </div>
                 <div className="item">
-                  <img src={react_logo} alt="Image" />
+                  <img src={react_logo} alt="React_Image" />
                   <h5>React</h5>
                 </div>
               </Carousel>
@@ -80,7 +80,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="Back_Image" />
     </section>
   )
 }
