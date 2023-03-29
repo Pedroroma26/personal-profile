@@ -47,17 +47,17 @@ export const Projects = () => {
       imgUrl: proj2Img3,
     },
     {
-      title: "Personal Profile",
+      title: "Personal Portfolio",
       description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img1,
     },
     {
-      title: "Personal Profile",
+      title: "Personal Portfolio",
       description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img2,
     },
     {
-      title: "Personal Profile",
+      title: "Personal Portfolio",
       description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img3,
     },
@@ -84,7 +84,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="second">Sports Admin</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Personal Profile</Nav.Link>
+                  <Nav.Link eventKey="third">Personal Portfolio</Nav.Link>
                 </Nav.Item>
               </Nav>
                 <Tab.Content>
@@ -125,7 +125,7 @@ export const Projects = () => {
                   <Tab.Pane eventKey="third">
                     <Row>
                       {projects
-                        .filter((project) => project.title === "Personal Profile")
+                        .filter((project) => project.title === "Personal Portfolio")
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
