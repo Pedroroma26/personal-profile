@@ -273,16 +273,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 0.5em;
   display: inline-block;
 }
 
+.title {
+  height: 8.2em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
 .banner h1 {
-  font-size: 65px;
+  font-size: 2.8em;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
   display: block;
 }
 
@@ -298,7 +303,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 1em;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;

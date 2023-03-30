@@ -65,32 +65,27 @@ export const Contact = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn animate__repeat-1 animate__slow" : ""}>
-                  <h2>Get in touch</h2>
-                  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" onSubmit={handleSubmit}>
-                  <Row>
-                      <Col xs={12} className="px-1">
-                        <input type="text" name="name" value={formDetails.name} placeholder="Name" onChange={(e) => onFormUpdate('name', e.target.value)} required />
-                      </Col>
-                      <Col xs={12} className="px-1">
-                        <input type="email" name="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} required />
-                      </Col>
-                      <Col xs={12} className="px-1">
-                        <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} required ></textarea>
-                        <button type="submit" disabled={isSubmitting}><span>{buttonText}</span></button>
-                      </Col>
-                      {
-                        status.message &&
-                        <Col>
-                          <p className={status.success === false ? "danger" : "success-message"}>{status.message}</p>
-                        </Col>
-                      }
-                    </Row>
-                  </form>
-                </div>}
-            </TrackVisibility>
+            <h2>Get in touch</h2>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" onSubmit={handleSubmit}>
+            <Row>
+                <Col xs={12} className="px-1">
+                  <input type="text" name="name" value={formDetails.name} placeholder="Name" onChange={(e) => onFormUpdate('name', e.target.value)} required />
+                </Col>
+                <Col xs={12} className="px-1">
+                  <input type="email" name="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} required />
+                </Col>
+                <Col xs={12} className="px-1">
+                  <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} required ></textarea>
+                  <button type="submit" disabled={isSubmitting}><span>{buttonText}</span></button>
+                </Col>
+                {
+                  status.message &&
+                  <Col>
+                    <p className={status.success === false ? "danger" : "success-message"}>{status.message}</p>
+                  </Col>
+                }
+              </Row>
+            </form>
           </Col>
         </Row>
       </Container>
