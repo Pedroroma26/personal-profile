@@ -9,6 +9,7 @@ import proj2Img3 from "../assets/img/proj2img3.png";
 import proj3Img1 from "../assets/img/proj3img1.png";
 import proj3Img2 from "../assets/img/proj3img2.png";
 import proj3Img3 from "../assets/img/proj3img3.png";
+import proj4Img1 from "../assets/img/proj4img1.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
@@ -61,6 +62,11 @@ export const Projects = () => {
       description: "This project is to show my personal porfolio of developed apps.",
       imgUrl: proj3Img3,
     },
+    {
+      title: "Classification API",
+      description: "In this project, I am using an API to fetch the classification and other data such as the number of games played, the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played.",
+      imgUrl: proj4Img1,
+    },
   ];
 
   return (
@@ -86,6 +92,9 @@ export const Projects = () => {
                 <Nav.Item>
                   <Nav.Link eventKey="third">Personal Portfolio</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fourth">Classification API</Nav.Link>
+                </Nav.Item>
               </Nav>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
@@ -95,7 +104,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                           <Col key={index} md={4}>
-                            <img src={project.imgUrl} alt={project.title} style={{ borderTop: '25px solid black' }} />
+                            <img src={project.imgUrl} alt={project.title} />
                           </Col>
                         );
                       })}
@@ -112,7 +121,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '25px solid black' }} />
+                              <img src={project.imgUrl} alt={project.title} />
                             </Col>
                           );
                         })}
@@ -129,7 +138,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '25px solid black' }} />
+                              <img src={project.imgUrl} alt={project.title} />
                             </Col>
                           );
                         })}
@@ -137,6 +146,23 @@ export const Projects = () => {
                     <div class="description">
                       <p>This project is to show my personal porfolio of developed apps.
                          You can visit this project <a href="https://pedroroma26.github.io/personal-profile/" target="_blank" class="project_link">here</a>.</p>
+                    </div>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="fourth">
+                    <Row>
+                      {projects
+                        .filter((project) => project.title === "Classification API")
+                        .map((project, index) => {
+                          return (
+                            <Col key={index} md={4}>
+                              <img src={project.imgUrl} alt={project.title} style={{ display: 'inline-block' }} />
+                            </Col>
+                          );
+                        })}
+                    </Row>
+                    <div class="description">
+                      <p>In this project, I am using an API to fetch the classification and other data such as the number of games played,
+                         the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played.</p>
                     </div>
                   </Tab.Pane>
                 </Tab.Content>
