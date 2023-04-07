@@ -104,7 +104,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                           <Col key={index} md={4}>
-                            <img src={project.imgUrl} alt={project.title} />
+                            <img src={project.imgUrl} alt={project.title} style={{ borderTop: '1em solid black' }} />
                           </Col>
                         );
                       })}
@@ -121,7 +121,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} />
+                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '1em solid black' }} />
                             </Col>
                           );
                         })}
@@ -138,7 +138,7 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} />
+                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '1em solid black' }} />
                             </Col>
                           );
                         })}
@@ -155,14 +155,14 @@ export const Projects = () => {
                         .map((project, index) => {
                           return (
                             <Col key={index} md={4}>
-                              <img src={project.imgUrl} alt={project.title} style={{ display: 'inline-block' }} />
+                              <img src={project.imgUrl} alt={project.title} style={{ borderTop: '1em solid black' }} />
                             </Col>
                           );
                         })}
                     </Row>
                     <div class="description">
                       <p>In this project, I am using an API to fetch the classification and other data such as the number of games played,
-                         the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played.</p>
+                         the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played in Portugal Primeira Liga.</p>
                     </div>
                   </Tab.Pane>
                 </Tab.Content>
