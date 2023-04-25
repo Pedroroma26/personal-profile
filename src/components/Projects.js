@@ -111,7 +111,7 @@ export const Projects = () => {
                     </Row>
                     <div class="description">
                       <p>Pitches for Fun is a web application that allows users to post the pitches that they own to be rent. They also can rent others users pitches and rate them.
-                         You can visit this project <a href="https://pitches-for-fun-pedroroma26.herokuapp.com/" target="_blank" class="project_link">here</a>.</p>
+                         You can visit this project <a href="https://github.com/Pedroroma26/pitches_for_fun" target="_blank" class="project_link">here</a>.</p>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
@@ -128,7 +128,7 @@ export const Projects = () => {
                     </Row>
                     <div class="description">
                       <p>SportsAdmin is a web application that allows competition organizers to manage their competitions. It enables organizers to sign up teams and their squads, schedule games between different teams, and perform match reports with the details of the game. After the game ends, an email is sent to both teams for validation.
-                         You can visit this project <a href="https://sports-reports.herokuapp.com/" target="_blank" class="project_link">here</a>.</p>
+                         You can visit this project <a href="https://github.com/Pedroroma26/sportsadmin" target="_blank" class="project_link">here</a>.</p>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
@@ -145,7 +145,7 @@ export const Projects = () => {
                     </Row>
                     <div class="description">
                       <p>This project is to show my personal porfolio of developed apps.
-                         You can visit this project <a href="https://pedroroma26.github.io/personal-profile/" target="_blank" class="project_link">here</a>.</p>
+                         You can visit this project <a href="https://github.com/Pedroroma26/personal-profile" target="_blank" class="project_link">here</a>.</p>
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
@@ -162,7 +162,8 @@ export const Projects = () => {
                     </Row>
                     <div class="description">
                       <p>In this project, I am using an API to fetch the classification and other data such as the number of games played,
-                         the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played in Portugal Primeira Liga.</p>
+                         the number of games won, lost, and drawn by each team, the number of goals scored, and the form of the teams in their last 5 games played in Portugal Primeira Liga.
+                         You can visit this project <a href="https://github.com/Pedroroma26/Football_Api" target="_blank" class="project_link">here</a>.</p>
                     </div>
                   </Tab.Pane>
                 </Tab.Content>
